@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-rnw",
+  "version": "0.1.0",
+  "description": "Test case for Next.js and react-native-web",
+  "main": "server.js",
+  "repository": "git@github.com:HealthTeacher/nextjs-rnw.git",
+  "author": "David Calhoun <dpcalhoun@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "next"
+  },
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-art": "^16.4.1",
+    "react-dom": "^16.4.2",
+    "react-native-web": "^0.8.9"
+  },
+  "devDependencies": {
+    "babel-plugin-react-native-web": "^0.8.9"
+  }
+}
