@@ -21,4 +21,5 @@ The "critical" styles for the page are missing.
 
 ## Notes
 
+- Server rendered styles worked prior to the `react-native-web` [changing the default exports to ES6 modules in `0.7.0`](https://github.com/necolas/react-native-web/releases/tag/0.7.0).
 - Using the `commonjs: true` for [`babel-plugin-react-native-web`](https://github.com/necolas/react-native-web/tree/master/packages/babel-plugin-react-native-web#usage) rather than compiling `react-native-web` with webpack fixes the missing styles (i.e. revert [this change](https://github.com/HealthTeacher/nextjs-rnw/commit/b0a9843c1b490f3a5d0ce6f7b0edff8626e24b8b)).
