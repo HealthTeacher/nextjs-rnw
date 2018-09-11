@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const esNodeModules = /(gn-icon-builder|react-native-web)(?!.*node_modules)/;
-const cjsNodeModules = /node_modules(?!\/(gn-icon-builder|react-native-web)(?!.*node_modules))/;
+const esNodeModules = /react-native-web(?!.*node_modules)/;
+const cjsNodeModules = /node_modules(?!\/react-native-web(?!.*node_modules))/;
 
 module.exports = {
   webpack: (config, { buildId, dev, isServer, defaultLoaders }) => {
